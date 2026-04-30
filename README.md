@@ -80,7 +80,19 @@ python main.py
 
 ## 📷 Demo
 
-(Add your screenshot here)
+### 🟢 1. Normal Execution (Baseline)
+
+This shows the standard multi-agent pipeline execution.
+
+![Normal Run](images/run_success.png)
+
+---
+
+### 🔴 2. Auto-Fix Self-Healing Execution
+
+This demonstrates the system's **self-healing capability**, where the Auto-Fix Agent detects execution failure and automatically repairs the logic until the test passes.
+
+![Auto Fix Run](images/auto_fix_success.png)
 
 ------
 
